@@ -1,0 +1,16 @@
+# Ignore Maven build output
+target/
+
+# Ignore IDE files
+.idea/
+*.iml
+
+# Ignore local Maven wrapper
+.mvn/
+
+# Ignore git files
+.git/
+.gitignore
+
+# Log files
+*.log

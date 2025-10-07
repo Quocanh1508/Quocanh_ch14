@@ -1,0 +1,116 @@
+/* The styles for the elements */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%; /* Sử dụng % hoặc rem cho dễ tùy chỉnh */
+    margin: 0;
+    padding: 0;
+    background-color: #e6f2ff; /* MÀU NỀN XANH DƯƠNG PASTEL */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* KHUNG BAO BỌC VÀ CĂN GIỮA NỘI DUNG */
+.container {
+    background-color: white;
+    padding: 2em 3em;
+    border-radius: 10px; /* Bo góc mềm mại */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    width: 100%;
+    max-width: 500px; /* Giới hạn chiều rộng của khung */
+    text-align: center;
+}
+
+/* NƠI ĐỂ CHÈN LOGO */
+.logo {
+    max-width: 200px;
+    margin-bottom: 1.5em;
+}
+
+h1 {
+    font-size: 1.8em; /* Sử dụng em cho co giãn tốt hơn */
+    color: #008080; /* Teal color */
+    margin-bottom: 1em;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Căn chỉnh lại form cho đẹp hơn */
+form {
+    text-align: left; /* Căn trái các label và input trong form */
+    margin-top: 2em;
+}
+
+label {
+    display: block; /* Label nằm trên input */
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%; /* Input chiếm hết chiều rộng của form */
+    padding: 12px;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Giúp padding không làm vỡ layout */
+
+    /* HIỆU ỨNG KHI TƯƠNG TÁC VỚI INPUT */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #008080; /* Đổi màu viền khi focus */
+    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
+    outline: none;
+}
+
+/* Nút Submit được thiết kế lại hoàn toàn */
+input[type="submit"] {
+    width: 100%;
+    background-color: #008080; /* Màu teal */
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* HIỆU ỨNG CHUYỂN ĐỘNG NHẸ KHI DI CHUỘT */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #006666; /* Màu đậm hơn khi hover */
+    transform: translateY(-3px); /* Nút sẽ nhích lên một chút */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style cho trang thanks.jsp */
+.info-display {
+    text-align: left;
+    background-color: #f9f9f9;
+    border-left: 5px solid #008080;
+    padding: 1em 1.5em;
+    margin: 2em 0;
+    border-radius: 5px;
+}
+
+.info-display p {
+    margin: 0.8em 0;
+}
+
+.info-display strong {
+    color: #333;
+}
+
+.info-display span {
+    color: #008080;
+    font-weight: bold;
+}
