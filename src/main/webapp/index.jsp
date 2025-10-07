@@ -17,7 +17,7 @@
     <img src="images/murachlogo.png" alt="Murach Logo" class="logo">
 
     <h1>Join our email list</h1>
-    <h1>Nguyễn Đặng Quốc Anh - 23133004</h1>
+    <h1>Nguyen Dang Quoc Anh - 23133004</h1>
     <p>To join our email list, enter your name and
         email address below.</p>
 
