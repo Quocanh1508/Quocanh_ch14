@@ -4,7 +4,7 @@ body {
     font-size: 100%; /* Sử dụng % hoặc rem cho dễ tùy chỉnh */
     margin: 0;
     padding: 0;
-    background-color: #e6f2ff; /* MÀU NỀN XANH DƯƠNG PASTEL */
+    background-color: #E69DA9; /* MÀU NỀN XANH DƯƠNG PASTEL */
     display: flex;
     justify-content: center;
     align-items: center;
